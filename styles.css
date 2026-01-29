@@ -1280,7 +1280,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: #e5e7eb;
+    color: #1f2937;
     font-size: 0.85rem;
     flex: 1;
 }
@@ -1290,7 +1290,7 @@ body {
 }
 
 .admin-preset-person span {
-    color: #e5e7eb;
+    color: #1f2937;
 }
 
 .admin-preset-arrow {
@@ -1300,7 +1300,7 @@ body {
 }
 
 .admin-preset-prize {
-    color: #10b981;
+    color: #059669;
     font-size: 0.85rem;
 }
 
