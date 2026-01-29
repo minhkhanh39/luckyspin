@@ -11,14 +11,14 @@
 <body>
     <!-- Audio Player for Prize Music -->
     <audio id="prizeAudio" loop></audio>
-    
+
     <!-- Notification Container -->
     <div id="notificationContainer" class="notification-container"></div>
 
     <!-- Navbar -->
     <nav class="navbar">
         <div class="navbar-brand">
-            <h1 class="navbar-title">VIP PRO MAX NO 1 </h1>
+            <h1 class="navbar-title">Vòng Quay May Mắn </h1>
         </div>
         <div class="navbar-menu">
             <button onclick="toggleControlPanel()" class="navbar-btn" id="controlBtn">
@@ -158,21 +158,25 @@
                         <button class="music-tab-btn active" onclick="switchMusicTab('file')">📁 Upload File</button>
                         <button class="music-tab-btn" onclick="switchMusicTab('url')">🌐 URL</button>
                     </div>
-                    
+
                     <!-- Tab Upload File -->
                     <div id="musicFileTab" class="music-tab-content active">
-                        <input type="file" id="prizeMusic" accept="audio/*" class="file-input-music" style="display: none;">
+                        <input type="file" id="prizeMusic" accept="audio/*" class="file-input-music"
+                            style="display: none;">
                         <button onclick="document.getElementById('prizeMusic').click()" class="btn btn-music-upload">
                             <svg class="icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3">
+                                </path>
                             </svg>
                             <span id="musicFileName">Chọn nhạc</span>
                         </button>
                     </div>
-                    
+
                     <!-- Tab URL -->
                     <div id="musicUrlTab" class="music-tab-content">
-                        <input type="text" id="prizeMusic Url" placeholder="Nhập URL nhạc (http://... hoặc https://...)" class="text-input">
+                        <input type="text" id="prizeMusic Url" placeholder="Nhập URL nhạc (http://... hoặc https://...)"
+                            class="text-input">
                         <small class="music-hint">Ví dụ: https://example.com/music.mp3</small>
                     </div>
                 </div>
